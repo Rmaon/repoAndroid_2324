@@ -16,8 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-
-
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -73,7 +71,7 @@ class MainActivity : AppCompatActivity() {
     private fun comprobarAnindado(): Boolean{
         if (comprobarCampos()){
             if (comprobarPsswrd()){
-                if (comprobarPsswrdLength()){
+                if (!comprobarPsswrdLength()){
 
                     return true
                 }else{
