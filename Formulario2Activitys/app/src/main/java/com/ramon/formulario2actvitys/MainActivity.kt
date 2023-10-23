@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
                     return true
                 }else{
                     Toast.makeText(this, "La contraseña debe tener al menos 6 digitos", Toast.LENGTH_SHORT).show()
-                }
+                }º
             }else{
                 Toast.makeText(this, "Las contraseñas deben coincidir", Toast.LENGTH_SHORT).show()
             }
