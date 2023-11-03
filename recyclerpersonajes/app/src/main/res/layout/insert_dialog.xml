@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioChiquiibai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiquiibai" />
+
+        <RadioButton
+            android:id="@+id/radioJordiWild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JordiWild" />
+
+        <RadioButton
+            android:id="@+id/radioJosebasElAutentico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Josebas el Autentico" />
+
+        <RadioButton
+            android:id="@+id/radioPapagiorgio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papagiorgio" />
+    </RadioGroup>
+</LinearLayout>

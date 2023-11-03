@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690590994230",
+    "project_id": "conexion-y-login-bd20c",
+    "storage_bucket": "conexion-y-login-bd20c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690590994230:android:8027507b16ac2d4459ed97",
+        "android_client_info": {
+          "package_name": "com.ramon.conexionylogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAJYJHMTQszcm2XMAfgD2yXd1dgkM1xk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
