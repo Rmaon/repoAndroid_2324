@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249319188696",
+    "project_id": "notificacion-25f7b",
+    "storage_bucket": "notificacion-25f7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249319188696:android:ac9fff1c13a3f61f5ccfad",
+        "android_client_info": {
+          "package_name": "com.ramon.notificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiTDQCMhAr-lj523DEu0baIEYMlw23bW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
