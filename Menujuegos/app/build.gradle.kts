@@ -9,6 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.ramon.menujuegos"
+        minSdk=14
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"

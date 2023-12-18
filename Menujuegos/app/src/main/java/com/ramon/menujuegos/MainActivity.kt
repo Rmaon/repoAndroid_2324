@@ -24,18 +24,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
+        return when (item.itemId) {
             R.id.game1 -> {
                 val intent = Intent(this, ActivityJuegoDados::class.java)
                 startActivity(intent)
-                return true
+                true
             }
+
             R.id.game2 -> {
                 val intent = Intent(this, juegorayas::class.java)
                 startActivity(intent)
-                return true
+                true
             }
-            else -> return super.onOptionsItemSelected(item)
+
+            else -> super.onOptionsItemSelected(item)
         }
     }
 
