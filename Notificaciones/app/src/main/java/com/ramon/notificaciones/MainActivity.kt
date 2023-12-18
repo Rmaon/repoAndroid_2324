@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val button: Button = findViewById(R.id.btnNotificacion)
 
         button.setOnClickListener {
-            sendNotification("Botón presionado", "Se ha presionado el botón.")
+            sendNotification(" Botón presionado", "Se ha presionado el botón.")
         }
     }
 
@@ -43,12 +43,12 @@ class MainActivity : AppCompatActivity() {
     private fun sendNotification(title: String, message: String) {
         val notificationManager =
             getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-
+        val appName = "RAMONyMiguelAPP"
         try {
             val notification: Notification = Notification.Builder(this, "default_channel_id")
-                .setContentTitle(title)
+                .setContentTitle(appName + title)
                 .setContentText(message)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.iconogato)
                 .setLights(Color.BLUE, 500, 500)
                 .build()
 
